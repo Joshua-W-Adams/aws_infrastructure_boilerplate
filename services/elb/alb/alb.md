@@ -8,7 +8,7 @@ Supports:
     - URI. Including routes eg. /users, host names and query strings
 - Routing to individual containers on the same EC2 instance
 - Supports lambda functions
-- Forwards client IP to downstream servers as X-forwarded-Proto header
+- Forwards client IP to downstream servers as X-forwarded-For header
 
 ## Architecture
 
