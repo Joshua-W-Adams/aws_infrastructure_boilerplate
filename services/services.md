@@ -22,3 +22,9 @@ General notes about all AWS services.
 ### High Availbility
 
 Running application in atleast 2 AZs.
+
+### Decoupling
+
+"separate something from something else."
+
+i.e. enables a microservices approach to cloud based applications.
