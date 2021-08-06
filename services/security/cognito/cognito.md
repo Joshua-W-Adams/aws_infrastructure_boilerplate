@@ -6,7 +6,7 @@ Service for managing user authentication.
 
 AWS identity provider and user management service. Best explained by the diagram below.
 
-![](./../../img/cognito_architecture.png)
+![](./../../../img/cognito_architecture.png)
 
 Authorisation of users via:
 - username, password, MFA
@@ -17,12 +17,12 @@ Supports:
 
 Returns a JSON Web Token (JWT) with authentication credentials.
 
-## Identity Pools (Federated Identity)
+## Federated Identity Pools
 
-Provide direct access to AWS Resources.
-
-![](./../../img/federated_identity_pool.png)
+Pools of users that have been authenticated with Federated Identities (3rd party idPs) in STS.
 
 ## Cognito Sync
 
 Stores preferences, configuration and state of application.
+
+
