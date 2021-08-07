@@ -1,35 +1,21 @@
-## Encryption
-
-Two types of encryption supported:
-
-At rest:
-- AWS KMS AES-256 encryption
-
-In-flight:
-- with SSL certificates
-
-## Snapshots
-
-Unencrypted at-rest databases can have their snapshots encypted.
-
-## Network 
+# Network 
 
 Uses security groups to manage access.
 
-## User Management
+# User Management
 
 User access is generally managed at the database level.
 
 Notes:
 - IAM policies only control who can create and manage the RDS
 
-### IAM
+## IAM
 
 IAM can be used to managed user access for MySQL, PostGres and Aurora DB engines as per the following diagram:
 
 ![](./../../../img/rds_iam_user_management.png)
 
-## Security Groups
+# Security Groups
 
 key ports to know
 
