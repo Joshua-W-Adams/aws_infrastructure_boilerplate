@@ -189,3 +189,9 @@ like VPN Gateway. However allows connecting multiple external on premise network
 
 allows multiple connections between a transit gateway (i.e. router) and external network to increase the bandwidth.
 
+# Cost
+
+Egress (outgoing only) Traffic = value specific to service and region.
+Ingress (incoming only) Traffic = free
+
+Cheaper to use private networks than public ones.
