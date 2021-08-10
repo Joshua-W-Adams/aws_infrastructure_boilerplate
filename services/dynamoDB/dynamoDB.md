@@ -2,6 +2,8 @@
 
 NoSQL database.
 
+These databases are generally refered to as **key value** databases. Where a key and a value can be either a value OR an object.
+
 Where documents (objects) are organised as follows:
 Tables = Collections of objects
 Items = Row = Object

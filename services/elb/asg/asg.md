@@ -4,7 +4,9 @@ Automatically scales ec2 instances up and down based on application load.
 
 Simply group of ec2 instances and scaling configuration
 
-Cnfiguration files include:
+## Launch Configuration Files
+
+ASGs can be created using a launch configuration file which contains the following information.
 
 - VM configuration
     - AMI + Bootstrapping
@@ -13,6 +15,16 @@ Cnfiguration files include:
     - Security Groups
 - min / max sizes
 - etc.
+
+Launch configuration files are for 1 VM configuration only. Cannot be edited.
+
+## Launch Templates
+
+Newer version of launch configurations and adds the following additional features:
+
+- Multiple versions
+- combination of instance types
+- combination of placement types (e.g. spot and on demand)
 
 ## Scaling Policies
 

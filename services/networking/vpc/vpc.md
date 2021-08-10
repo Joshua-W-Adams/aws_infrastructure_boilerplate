@@ -92,11 +92,17 @@ A way to map multiple private IP addresses to a Public one. Allows connecting on
 
 An EC2 instance that manages the NAT process.
 
+- Supports port forwarding.
+- Can be used as a bastion server.
+
 ### NAT Gateway
 
 AWS managed NAT. 
 
 Which has high availability and scalability.
+
+- Does NOT support port forwarding.
+- Can NOT be used as a bastion server.
 
 ## DNS Integration
 
@@ -113,6 +119,8 @@ Security Group vs. ACL
 
 Security Group is stateful - return traffic auto allowed
 ACL is statelss - return traffic is always assessed
+
+VPCs support both ACLs and security groups.
 
 ## Emphemeral Ports
 
@@ -195,3 +203,9 @@ Egress (outgoing only) Traffic = value specific to service and region.
 Ingress (incoming only) Traffic = free
 
 Cheaper to use private networks than public ones.
+
+# VPC Sharing
+
+VPC sharing (part of Resource Access Manager) allows multiple AWS accounts to create their application resources such as EC2 instances, RDS databases, Redshift clusters, and Lambda functions, into shared and centrally-managed Amazon Virtual Private Clouds (VPCs). 
+
+To set this up, the account that owns the VPC (owner) shares one or more subnets with other accounts (participants) that belong to the same organization from AWS Organizations.

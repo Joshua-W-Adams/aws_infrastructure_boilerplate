@@ -24,3 +24,15 @@ Effectively you can run anything you want as the limitations are very generous.
 Deploy lambda functions at clound front locations.
 
 Note: can modify request / responses on send and recieve totaling 4 events.
+
+## Lambda VPC
+
+By default, Lambda functions always operate from an AWS-owned VPC and hence have access to any public internet address or public AWS APIs.
+
+Once a Lambda function is VPC-enabled, it will need a route through a NAT gateway in a public subnet to access public resources.
+
+## Lambda Layers
+
+packaged up re-useable code that can be used accross lambda functions.
+
+Layers can be thought of as tthe domain layer code and lambda functions as the use cases.
