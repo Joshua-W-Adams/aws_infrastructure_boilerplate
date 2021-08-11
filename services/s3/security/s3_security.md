@@ -18,3 +18,5 @@ Server Side Encryption (SSE) operations can be handled by S3.
 
 - *AES-256 encryption alogrithm as standard*
 - *HTTP header "x-amz-server-side-encryption": "AES256" specified with file upload to perform encryption.*
+
+This option does not provide the ability to audit trail the usage of the encryption keys.

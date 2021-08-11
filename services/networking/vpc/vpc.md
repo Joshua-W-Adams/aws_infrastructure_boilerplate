@@ -197,13 +197,6 @@ like VPN Gateway. However allows connecting multiple external on premise network
 
 allows multiple connections between a transit gateway (i.e. router) and external network to increase the bandwidth.
 
-# Cost
-
-Egress (outgoing only) Traffic = value specific to service and region.
-Ingress (incoming only) Traffic = free
-
-Cheaper to use private networks than public ones.
-
 # VPC Sharing
 
 VPC sharing (part of Resource Access Manager) allows multiple AWS accounts to create their application resources such as EC2 instances, RDS databases, Redshift clusters, and Lambda functions, into shared and centrally-managed Amazon Virtual Private Clouds (VPCs). 

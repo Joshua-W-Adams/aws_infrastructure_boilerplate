@@ -15,9 +15,19 @@ Effectively you can run anything you want as the limitations are very generous.
 - Max Execution time: 900 seconds
 - Environment variables: 4KB
 - Disk Capacity: 512MB
-- Concurrency: 1000
+- **Concurrency: 1000** - you can raise this by contacting AWS support
 - Compressed deployment size: 50MB
 - Uncompressed "": 250MB
+
+
+## Languages Supported
+
+- JavaScript
+- Java
+- C#
+- Go
+- Python
+- Ruby
 
 ## Lambda at Edge
 

@@ -29,6 +29,16 @@ Supports:
 - definition of custome read endpoints, i.e. replicate 1 and 2 for a reporting application, replica 3 and 4 for a ETL service etc.
 - multi-master nodes
 
+## Failover Priority
+
+Each Read Replica is associated with a priority tier (0-15). 
+
+In the event of a failover, Amazon Aurora will promote the Read Replica that has the highest priority (the lowest numbered tier). 
+
+If two or more Aurora Replicas share the same priority, then Amazon RDS promotes the replica that is largest in size. 
+
+If two or more Aurora Replicas share the same priority and size, then Amazon Aurora promotes an arbitrary replica in the same promotion tier.
+
 ## Aurora Serverless
 
 Supports serverless application technology where you only pay per second of database use.

@@ -16,6 +16,12 @@ Two keys. Public key (encrypt) and private key (Decrypt). Used for sign and veri
 
 *Note: Encrypted secrets can be stored in code / environment variables.*
 
+### CMK deletion
+
+KMS enforces a waiting period. To delete a CMK in AWS KMS you schedule key deletion. You can set the waiting period from a minimum of 7 days up to a maximum of 30 days.
+
+The CMK is recoverable during this period.
+
 ## Automatic Key Rotation
 
 Automatically change underlying encyption keys every x days. Only applicable for Customer Managed CMK.
