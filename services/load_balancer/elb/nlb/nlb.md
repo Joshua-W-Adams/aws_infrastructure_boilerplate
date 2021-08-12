@@ -9,7 +9,15 @@ Supports:
 
 ## Network Data Packet
 
-![](./../../../img/packet_structure.png).
+Described by the Open Systems Interconnection (OSI) model as follows:
+
+seven layers that computer systems use to communicate over a network as shown in the following diagram.
+
+![](./../../../../img/osi-model-7-layers.svg)
+
+More simply explained by the 5 layers below:
+
+![](./../../../../img/packet_structure.png)
 
 ## Transport Layer Protocols
 

@@ -12,4 +12,4 @@ Supports:
 
 ## Architecture
 
-![](./../../../img/alb_structure.png)
+![](./../../../../img/alb_structure.png)
