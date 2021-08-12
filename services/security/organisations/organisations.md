@@ -8,7 +8,7 @@ Each OU represents a group of AWS account.
 
 Example AWS organisation structure is provided in the diagram below:
 
-![](./../../img/organisation_structure.png)
+![](./../../../img/organisation_structure.png)
 
 ## Service Control Policies (SCP)
 

@@ -19,7 +19,6 @@ Effectively you can run anything you want as the limitations are very generous.
 - Compressed deployment size: 50MB
 - Uncompressed "": 250MB
 
-
 ## Languages Supported
 
 - JavaScript
@@ -45,4 +44,4 @@ Once a Lambda function is VPC-enabled, it will need a route through a NAT gatewa
 
 packaged up re-useable code that can be used accross lambda functions.
 
-Layers can be thought of as tthe domain layer code and lambda functions as the use cases.
+Layers can be thought of as the domain layer code and lambda functions as the use cases.
