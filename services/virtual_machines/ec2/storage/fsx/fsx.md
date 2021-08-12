@@ -8,7 +8,7 @@ Two types:
 
 ## Windows
 
-Shared Windows File system shared file.
+Shared Windows File system.
 
 Supports:
 - Server Message Block (SMB)

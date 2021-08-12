@@ -11,6 +11,25 @@ Customer    - security **in** the cloud
 
 # General Security Theory
 
+## Security Groups
+
+Controls how traffic is allowed into and out of EC2 instances. i.e. Firewall.
+
+Key ports
+
+21 - FTP (File Transfer protocol) - upload files
+22 - SSH (Secure Shell) - Connect to Linux, mac, windows (>v10)
+22 - SFTP (secure file transfer protocal) - upload files with SSH
+80 - HTTP
+443 - HTTPS
+3389 - RDP (Remote desktop Protocol) - Log into windows instance
+
+*Note: General rule of thumb is if you are getting timeout (endless loading screens) on your websites, it is likely a security group issue.*
+
+Default configuratin
+- all inbound traffic blocked.
+- all outbound traffic is authorised.
+
 ## Encryption
 
 Scrambles data to make it unreadable without a secret key being provided.
