@@ -93,4 +93,17 @@ Use cases
 - only allow access to premium content from signed in users
 - allow users to upload files to buckets (e.g. profile photo)
 
+Configured by specification of the:
+- expiration
+- trusted signers
+- ip ranges
 
+# Cookies
+
+A cookie is a piece of data stored in the client/user brower.
+
+Cookies can be used to store entire application state.
+
+Session is simply a cookie with a session id attached. This lets the server manage whether this id is authenticated or not and store application state on the server.
+
+Another method of authentication management for resources. Except the cookie can be used for accessing multi files or resources.

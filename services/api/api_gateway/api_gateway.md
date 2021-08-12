@@ -14,7 +14,8 @@ APIs can pass requests to
 General features:
 - authentication
 - request throttling
-- swagger and openAPI support
+- swagger support 
+- openAPI (industry standard for REST API design) support
 - caching
 
 ## API Infrastructure Types
