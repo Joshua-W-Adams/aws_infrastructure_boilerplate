@@ -24,6 +24,13 @@ Key ports
 443 - HTTPS
 3389 - RDP (Remote desktop Protocol) - Log into windows instance
 
+- PostgreSQL: 5432
+- MySQL: 3306
+- Oracle RDS: 1521
+- MSSQL Server: 1433
+- MariaDB: 3306 (same as MySQL)
+- Aurora: 5432 (if PostgreSQL compatible) or 3306 (if MySQL compatible)
+
 *Note: General rule of thumb is if you are getting timeout (endless loading screens) on your websites, it is likely a security group issue.*
 
 Default configuratin
