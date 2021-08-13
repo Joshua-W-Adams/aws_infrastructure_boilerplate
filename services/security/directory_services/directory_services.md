@@ -16,7 +16,7 @@ Notes:
 
 ## Types
 
-BEst explained by the diagram below.
+Best explained by the diagram below.
 
 ![](./../../../img/ad_services.png)
 
