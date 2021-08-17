@@ -11,7 +11,7 @@ Two types:
 Shared Windows File system.
 
 Supports:
-- Server Message Block (SMB)
+- Server Message Block (SMB) - NFS protocol compatible with windows devices.
 - New Technology File System (NTFS).
 
 ## Lustre

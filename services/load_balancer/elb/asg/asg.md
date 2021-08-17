@@ -38,8 +38,10 @@ Rules by which ASG are scaled in and out.
 
 Target
 - a specific metric value e.g. 40% cpu
+Simple
+- define a single threshold value and specify scaling value. i.e @ 80% cpu add 20% capacity. @ 30% cpu remove 20% capacity.
 Step
-- specificy ranges/steps to scale by. e.g. at 70% add 2 units, at 30% remove 1 unit
+- An improved version of simple scaling whereby you specificy ranges/steps to scale by while an alarm is in progress. Allows adding of additional capacity without having to wait for the cooldown period to expire in a simple scaling policy. e.g. at 70% over threshold value add 2 units, at 30% over add 1 unit.
 Scheduled
 - add/remove units based on specific time frames
 

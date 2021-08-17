@@ -133,3 +133,9 @@ Cookies can be used to store entire application state.
 Session is simply a cookie with a session id attached. This lets the server manage whether this id is authenticated or not and store application state on the server.
 
 Another method of authentication management for resources. Except the cookie can be used for accessing multi files or resources.
+
+# Internet Protocol Security (IPSec)
+
+IPsec is a group of protocols that are used together to set up encrypted connections between devices.
+
+Specifically IPsec operates at layer 3 of the OSI model (the network layer).
