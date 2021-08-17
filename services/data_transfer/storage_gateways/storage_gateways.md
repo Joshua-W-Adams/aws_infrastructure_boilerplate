@@ -8,19 +8,19 @@ i.e. a bridge between local storage and AWS cloud storage
 
 ## Types
 
-### File 
+### File Gateway
 
-- access s3 via NFS and SMB protocol
+- transfer to s3 **only** via NFS and SMB protocol
 - integrated with Active Directory (AD) for user authentication
 
-![](./../../img/file_gateway_process.png)
+![](./../../../img/file_gateway_process.png)
     
-### Volume
+### Volume Gateway
 
 - block storage using iSCSI protocol backed by S3
     - cached volumes
     - stored volumes
 
-### Tape
+### Tape Gateway
 
 - same process but with physical tapes

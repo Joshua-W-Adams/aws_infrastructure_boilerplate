@@ -11,7 +11,7 @@ Products where you dont manage servers are are follows:
 
 Basic serverless architecture is as follows:
 
-![](./../../img/serverless_basic_architecture.png)
+![](./../../../img/serverless_basic_architecture.png)
 
 ## Examples
 
@@ -24,7 +24,7 @@ Classic Serverless REST API Application that includes:
 - File Storage
 - Authentication
 
-![](./../../img/serverless_example_todo.png)
+![](./../../../img/serverless_example_todo.png)
 
 ### My Blog
 
@@ -33,7 +33,7 @@ Extended example with
 - thumbnail generation
 - global static files
 
-![](./../../img/serverless_my_blog.png)
+![](./../../../img/serverless_my_blog.png)
 
 ### Distribute Premium Video Content
 
@@ -42,10 +42,10 @@ Entended example with:
 - authenticated video hosting with signed URLs
 - global video distribution
 
-![](./../../img/serverless_distribute_premium_content.png)
+![](./../../../img/serverless_distribute_premium_content.png)
 
 ### Big Data Pipeline
 
 Serverless data pipeline architectural example.
 
-![](./../../img/big_data_architecture.png)
+![](./../../../img/big_data_architecture.png)

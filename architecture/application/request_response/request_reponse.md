@@ -4,4 +4,4 @@
 
 The pattern can best be described by the schematic below:
 
-![](./../../img/async_request_response_pattern.jpeg)
+![](./../../../img/async_request_response_pattern.jpeg)

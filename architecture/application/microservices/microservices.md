@@ -6,7 +6,7 @@ Each service can differs in architecture and structure.
 
 Best explained by the diagram below.
 
-![](./../../img/microservices_architecture.png)
+![](./../../../img/microservices_architecture.png)
 
 General architectures for each service are:
 - Container based
@@ -14,4 +14,4 @@ General architectures for each service are:
 - Classic managed VMs
 
 Benefits:
-- Can package up each service to faster development cycles.
+- Can package up each service for faster development cycles.

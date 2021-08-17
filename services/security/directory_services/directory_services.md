@@ -22,7 +22,7 @@ Best explained by the diagram below.
 
 ### AWS Managed Microsoft AD
 
-Create AD on AWS **OR** create AD locally. Then specify that these two sources trust each other.
+AD managed by AWS. Can setup a trusted connection with a local/on-premises AD.
 
 ### AD Connector
 

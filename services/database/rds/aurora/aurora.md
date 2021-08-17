@@ -10,7 +10,7 @@ Notes:
 
 Availability of the AWS aurora db is best described by the diagram below:
 
-![](./../../../img/aurora_design.png)
+![](./../../../../img/aurora_design.png)
 
 In summary: 
 - Storage is: 
@@ -22,7 +22,7 @@ In summary:
 
 Overall architecutre of the technology is as follows: 
 
-![](./../../../img/aurora_client_access.png)
+![](./../../../../img/aurora_client_access.png)
 
 Supports:
 - a master node and up to 15 read replicas.

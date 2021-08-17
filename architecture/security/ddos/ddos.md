@@ -2,4 +2,4 @@
 
 A standard DDoD protection architecture is as follows:
 
-![](./../../img/ddos_architecture.png)
+![](./../../../img/ddos_architecture.png)

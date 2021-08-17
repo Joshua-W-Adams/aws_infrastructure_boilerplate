@@ -9,8 +9,8 @@ Any event that has a negative impact on the company's business or financies.
 
 Two key terms need to be understood:
 
-Recovery Point Objective (RPO) - Minimum time between last backup and disaster
-Recovery Time Objective (RTO) - Maximum time between disaster and everything being fixed
+- Recovery Point Objective (RPO) - Minimum time between last backup and disaster
+- Recovery Time Objective (RTO) - Maximum time between disaster and everything being fixed
 
 ![](./../../img/rpo_rto.png)
 

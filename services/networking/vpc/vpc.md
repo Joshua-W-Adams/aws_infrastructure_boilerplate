@@ -63,7 +63,7 @@ Rest are public IPs
 
 ## Internet Gateway
 
-Gateway is just a router and also NAT device specifically used to connects VPCs to internet.
+Gateway is just a router and **also NAT device** specifically used to connects VPCs to internet.
 
 *Important: 1 internet gateway per VPC*
 
