@@ -4,6 +4,10 @@
 
 ![](./../../../img/architecture_3_tier_web_app.png)
 
+This can also be thought of in the following way:
+
+![](./../../../img/traditional_3_tier_web_app.png)
+
 ## Example Architectures
 
 ### Whatisthetime.com
