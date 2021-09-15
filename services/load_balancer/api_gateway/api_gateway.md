@@ -1,6 +1,6 @@
 # API Gateway
 
-Service to create and manage web APIs.
+Serverless API service. Create and manage web APIs.
 
 Supports APIs of type:
 - REST
@@ -18,7 +18,17 @@ General features:
 - openAPI (industry standard for REST API design) support
 - caching
 
-## API Infrastructure Types
+## Stages And Stage Variables
+
+API gateway configuration is created. Then this configuration is deployed to a stage.
+```
+https://www.some_domain.com/stage/base_api_configuration
+```
+These stages can pass stage variables to the underlying configuration to customise it. For example sending a resource to differing lambda aliases.
+
+<img src="./../../../img/api_gateway_stages.png" width=800></img>
+
+## API Endpoint Types
 
 - Edge Optimised via CloudFront
 - Regional
