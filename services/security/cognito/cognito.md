@@ -4,25 +4,30 @@ Service for managing user authentication.
 
 ## Cognito User Pools (CUP)
 
-AWS identity provider and user management service. Best explained by the diagram below.
+Serverless database of users for your web applications. Returns a JSON Web Token (JWT) with authentication credentials when users login. 
+
+CUP is also an identity provider.
 
 ![](./../../../img/cognito_architecture.png)
 
-Authorisation of users via:
-- username, password, MFA
-- Facebook, Google etc.
-
 Supports:
+- Authentication of users via:
+    - username, password, MFA
+    - Facebook, Google etc.
 - verification of emails and phone numbers
 
-Returns a JSON Web Token (JWT) with authentication credentials.
+## Cognito Identity Pools (CIP)
 
-## Federated Identity Pools
+Identity pools give users access to **AWS services** by exchanging their token for AWS credentials.
 
-Pools of users that have been authenticated with Federated Identities (3rd party idPs) in STS.
+User pools stores all the users and passwords.
+
+<img src="./../../../img/cup_user_management.png"></img>
 
 ## Cognito Sync
 
-Stores preferences, configuration and state of application.
+Stores preferences, configuration and state of application. Superceded by AppSync.
 
+## Hosted Authentication UI
 
+Customisable authentication UI that you can add to your apps to handle the sign-up and sign-in workflows.
