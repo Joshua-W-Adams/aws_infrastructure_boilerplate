@@ -10,6 +10,11 @@ STS can be used to give a user temporary access to assume a "Role". i.e. you mig
 
 You can use STS to give a user a temporary token to use that role.
 
+Three key API functions to perform this:
+- AssumeRole
+- AssumeRoleWithSAML
+- AssumeRoleWithWebIdentity
+
 ## Federated Identity
 
 Provide users OUTSIDE your AWS account direct access to AWS Resources.
