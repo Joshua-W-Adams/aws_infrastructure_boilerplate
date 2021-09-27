@@ -8,5 +8,3 @@ Use cases:
 - Google Play Store API keys
 - Apple App Store API keys
 - i.e. any encryption keys
-
-
