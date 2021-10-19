@@ -14,10 +14,6 @@ This can also be thought of in the following way:
 
 ![](./../../../img/architecture_whatisthetime.com.png)
 
-### Myclothes.com
-
-![](./../../../img/architecture_myclothes.com.png)
-
 ### Mywordpress.com
 
 ![](./../../../img/architecutre_mywordpress.com.png)
