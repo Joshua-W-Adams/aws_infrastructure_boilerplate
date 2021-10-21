@@ -22,7 +22,7 @@ property = an attribute, quality, or characteristic of something.
 
 ### Primary Keys
 
-The unique identifier (Primary Key) of a row is refered to as a **Partition key** (because the data in a NoQL database is distributed over partitions).
+The unique identifier (Primary Key) of a row is refered to as a **Partition key** (because the data in a NoSQL database is distributed over partitions).
 
 Keys should be selected based on cardinality.
 
@@ -45,7 +45,7 @@ There are two options for primary keys as follows:
 ## Indexes
 
 ```
-An index is simple another table sorted on multiple fields. With a pointer to the record it relates to.
+An index is simply another table sorted on multiple fields. With a pointer to the record it relates to.
 ```
 
 Indexing allows binary searchs of log2 N complexity to be performed on them. Avoiding an entire table scan.
@@ -89,7 +89,7 @@ An example of a conditional to handle concurrency would be an item version condi
 
 <img src="./../../../img/dynamodb_concurrency.png" width=700><img>
 
-## Write Yypes
+## Write Types
 
 <img src="./../../../img/dynamodb_write_types.png"></img>
 
@@ -97,7 +97,7 @@ An example of a conditional to handle concurrency would be an item version condi
 
 ## Automatic
 
-OnDemand Capacity can be specified to scales as needed.
+OnDemand Capacity can be specified to scale as needed.
 
 ## Manual (Provisioned Throughput)
 
@@ -143,7 +143,7 @@ This error can be handled as follows:
 
 ## Operations (APIs)
 
-Are grouped as Create, Read, Update, Delete (CRUD) operations. These are all very verabose and therefore do not require detailed descriptions.
+Are grouped as Create, Read, Update, Delete (CRUD) operations. These are all very verbose and therefore do not require detailed descriptions.
 
 ### Read
 
@@ -184,7 +184,7 @@ Parallel scan can be used to improve performance.
 
 Change events in DynamoDB (Create, Update, Delete) are added to the DynamoDB stream.
 
-Options of data to be writtenm to the stream are as follows:
+Options of data to be written to the stream are as follows:
 - KEYS_ONLY
 - NEW_IMAGE - new item
 - OLD_IMAGE - old item
@@ -200,7 +200,7 @@ Ability to Create / Update / Delete multiple rows accross multiple tables at the
 
 All or nothing style operation.
 
-Usesful to keep data in sync accross tables. e.g. the user_id or adding a bank deposit of 100 to one table and updating the balance in another.
+Useful to keep data in sync across tables. e.g. the user_id or adding a bank deposit of 100 to one table and updating the balance in another.
 
 ### Transactional Capacity Computations
 

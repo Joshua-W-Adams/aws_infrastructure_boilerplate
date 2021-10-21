@@ -16,5 +16,5 @@ The following header indicates a SAM document
 Transform: 'AWS::Serverless-2016-10-31'
 ```
 
-<img src="./../../../img/sam_ioc.png" width=800></img>
+<img src="./../../../../img/sam_ioc.png" width=800></img>
 

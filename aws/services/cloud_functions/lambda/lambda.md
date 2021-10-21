@@ -146,7 +146,7 @@ DLQs for failed invocations.
 
 ## Destinations
 
-Destinations support failed and successful function invocations and multiple destinations for each resuolt type.
+Destinations support failed and successful function invocations and multiple destinations for each result type.
 
 ![](./../../../img/lambda_destinations.png)
 
@@ -199,7 +199,7 @@ lambda will auto log to cloud watch logs
 Metrics are displayed in CloudWatch Metrics
 
 Default metrics are as follows:
-- Invocations, durations, concurrent executions, error count, sucess rate, throttles etc.
+- Invocations, durations, concurrent executions, error count, success rate, throttles etc.
 
 # Performance
 
@@ -222,7 +222,7 @@ Directory in your lambda function that remains even when the execution context i
 ## Concurrency
 
 ```
-Concurrency is the maximum amount of lamba executions that can be running fore ALL functions in your account.
+Concurrency is the maximum amount of lambda executions that can be running for ALL functions in your account.
 ```
 Reserved concurrency is the limit and reservation of concurrent lambda executions for specific function.
 

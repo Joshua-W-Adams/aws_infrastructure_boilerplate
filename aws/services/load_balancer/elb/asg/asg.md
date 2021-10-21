@@ -34,7 +34,7 @@ Rules by which ASG are scaled in and out.
 
 ### Dynamic Scaling Policies
 
-3 different types
+4 different types
 
 Target
 - a specific metric value e.g. 40% cpu
