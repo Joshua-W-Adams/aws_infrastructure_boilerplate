@@ -25,7 +25,7 @@ A format for defining data which is comprised of key and value pairs. Where a ke
 
 A excellent overview of a yaml file is shown below.
 
-![](./../../../img/yaml_overview.png)
+![](./../../../../img/yaml_overview.png)
 
 ## YAML Templates
 
@@ -138,7 +138,7 @@ subsitute values.
 
 Stacks that are applied across multiple accounts and regions.
 
-![](./../../../img/stack_set.png)
+![](./../../../../img/stack_set.png)
 
 ### Change Sets
 
@@ -150,13 +150,13 @@ Stacks that are used as parts of other stacks.
 
 e.g. load balancer configs, security group configs.
 
-![](./../../../img/nested_stack.png.png)
+![](./../../../../img/nested_stack.png.png)
 
 ### Cross Stacks
 
 Stacks that are reference across other stacks. e.g. a VPC.
 
-![](./../../../img/cross_stack.png)
+![](./../../../../img/cross_stack.png)
 
 ## Rollbacks
 
