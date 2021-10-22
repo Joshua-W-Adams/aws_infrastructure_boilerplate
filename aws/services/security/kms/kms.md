@@ -24,7 +24,7 @@ The process for encryption and decryption in KMS is described as per the followi
 
 ### Decryption
 
-CMKs always leave KMS encrypted. Therefore to use these keys to drypt a datasource, the key must be provided to CMKS for decryption. Then this decrypted plain text key can be used.
+CMKs always leave KMS encrypted. Therefore to use these keys to drypt a datasource, the key must be provided to KMS for decryption. Then this decrypted plain text key can be used.
 
 ![](./../../../img/kms_decrypt.png)
 

@@ -45,7 +45,7 @@ For encryption to operate you need a private key and encryption algorithm.
 
 ![](./../../img/encryption.png)
 
-All keys are managed in a service whcih can be KMS or otherwise.
+All keys are managed in a service which can be KMS or otherwise.
 
 ### In-flight
 
